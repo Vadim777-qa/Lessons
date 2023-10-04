@@ -48,4 +48,49 @@
 # print(test_str[2:7:2])
 # print(test_str[-8:-1:2])
 
-print("New change to git")
+# print('New' in 'New name is Leasha')
+# print(False - 1)
+# print(True + True)
+# print('Female don\'t cry')
+# check_bool = 5 <= 5
+# print(check_bool)
+# concatenation = 'Pool' + ' ' + "Human"
+# print(concatenation)
+# check_name = "There is a big chance that people are aliens"
+#
+# print(check_name.upper())
+# print(check_name.lower())
+# print(check_name.startswith('There'))
+# print(check_name.endswith('aliens'))
+# print(check_name.startswith("is", 6))
+#
+# other_data_type = 890
+# another_data_type = "110"
+#
+# print(type(other_data_type), type(another_data_type))
+# print(other_data_type + int(another_data_type))  # conversion of types
+
+# middle_value = "There are %s miles left to the next Region"
+# after_value = "and age of the driver is %s, so don't worry"
+# result_middle_value = middle_value % 35
+# result_after_value = after_value % 66
+# print(result_middle_value + ' ' + result_after_value)
+
+# middle_value_format = """There are {miles} miles left to the next Region,
+# and age of the driver is {age}, so don't worry"""
+# format_result = middle_value_format.format(miles=35, age=66)
+# print(format_result)
+#
+# amount_of_bunnies = 5 ** 5
+# test_f_string = f"Oh my gush! There are {amount_of_bunnies}, bunnies"
+# print(test_f_string.capitalize())
+# print(test_f_string.title())
+# print(test_f_string.count('e'))
+# print(test_f_string.isalpha())
+# print(test_f_string.isalnum())
+# print(test_f_string.isnumeric())
+
+# print(f'symbols count: {len(test_f_string)}')
+
+some_str = "rt468"
+print(some_str[-4:-1])
