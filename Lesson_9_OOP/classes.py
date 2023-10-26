@@ -86,7 +86,14 @@ bark = Dog(heads_count=1, paw_count=4, tail="Small tail", claws=14, dog_name="Ba
 murzik.bite()
 bark.bite()
 
-
 list_of_animals = [murzik, bark]
 for animal in list_of_animals:
     animal.bite()
+
+
+# class Cars():
+#     color = "some color"
+#     def drive(self):
+#         return "driving"
+#
+# class Mersedez(Cars):

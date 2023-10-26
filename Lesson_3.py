@@ -15,16 +15,16 @@
 # else:
 #     print("Equal")
 
-PASS_1 = input("Print your password: ")
-PASS_2 = input("Confirm your password: ")
-
-if type(PASS_1) == str and type(PASS_2) == str:
-    if PASS_1 == PASS_2:
-        print("Passed!")
-    else:
-        print("Denied!")
-else:
-    print("Not a name!")
+# PASS_1 = input("Print your password: ")
+# PASS_2 = input("Confirm your password: ")
+#
+# if type(PASS_1) == str and type(PASS_2) == str:
+#     if PASS_1 == PASS_2:
+#         print("Passed!")
+#     else:
+#         print("Denied!")
+# else:
+#     print("Not a name!")
 
 # Lists (as arrays in other languages) name = []
 
@@ -55,3 +55,7 @@ else:
 # # Python Sets
 # set_example = {"test_value", 1, 2, True, True}
 # print(set_example)
+
+your_name = input("Input your name: ")
+result = f"The name of this fellow is {your_name} and has {len(your_name)} letters"
+print(result)

@@ -1,9 +1,9 @@
-def get_sum(first_num, second_num):
-    result = first_num + second_num
-    print(result)
-
-
-get_sum(1, 3)
+# def get_sum(first_num, second_num):
+#     result = first_num + second_num
+#     print(result)
+#
+#
+# get_sum(1, 3)
 
 
 # S.O.L.I.D - набор принципов Обтьектно ориентированого програмирования.
@@ -25,20 +25,34 @@ get_sum(1, 3)
 # handle database persistence and saving to file. We can pass the TelephoneDirectory object to the objects of those classes and
 # write any additional features in those classes.
 
-class monster_crusher():
+# class monster_crusher():
+#
+#     def __init__(self, damage_monsters):
+#         self.damage_monsters = damage_monsters
+#
+#
+#
+# class fire_monster_damage(monster_crusher):
+#
+#     def burn_monsters(self):
+#         print("Monster is burned")
+#
+#
+# class ice_monster_damage(monster_crusher):
+#
+#     def freeze_monters(self):
+#         print("Monster is frozen")
 
-    def __init__(self, damage_monsters):
-        self.damage_monsters = damage_monsters
+def get_sum(first_number, second_number):  # нарушает принцип Single responsibility,
+    result = first_number + second_number  # так как и считает суму и взаимоодействует с консолью
+    print(result)
 
 
-
-class fire_monster_damage(monster_crusher):
-
-    def burn_monsters(self):
-        print("Monster is burned")
+get_sum(1, 3)
 
 
-class ice_monster_damage(monster_crusher):
+def get_new_sum(third_number, second_number):
+    return third_number + second_number
 
-    def freeze_monters(self):
-        print("Monster is frozen")
+
+print(get_new_sum(3, 4))
